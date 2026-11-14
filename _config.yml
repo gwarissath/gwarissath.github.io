@@ -9,7 +9,7 @@ baseurl: ""
 remote_theme: mmistakes/minimal-mistakes
 
 # Configuration du thème
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "mint"
 
 # Plugins GitHub Pages
 plugins:
