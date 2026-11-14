@@ -11,8 +11,8 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "I Was Once"
+    url: /journey/
+
   - title: "CV"
     url: /cv/
-
-  - title: "My journey"
-  url: /journey/
