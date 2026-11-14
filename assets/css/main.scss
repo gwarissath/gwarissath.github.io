@@ -1,153 +1,263 @@
+
 ---
 ---
 
 @import "minimal-mistakes";
 
-.home-hero {
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:center;
-  gap:70px;
-  max-width:1100px;
-  margin:30px auto 60px;
+/* ==================================
+   ACADEMIC PORTFOLIO - COLOR SYSTEM
+================================== */
+
+:root {
+  --forest: #173F35;
+  --forest-light: #28594B;
+  --cream: #F5F2E9;
+  --beige: #C8B99A;
+  --ink: #26352F;
+  --muted: #68756E;
+  --white: #FFFFFF;
 }
 
-.home-photo {
-  flex: 0 0 290px;
+/* General layout */
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: "Georgia", "Times New Roman", serif;
 }
 
-.home-photo img {
-  width: 270px;
-  height: 320px;
+#main {
+  max-width: 1320px;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.page {
+  width: 100%;
+}
+
+/* Navigation */
+
+.masthead {
+  background: var(--white);
+  border-bottom: 1px solid #E8E5DC;
+}
+
+.masthead__inner-wrap {
+  max-width: 1320px;
+  width: 92%;
+}
+
+.greedy-nav a {
+  color: var(--forest) !important;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+.greedy-nav a:hover {
+  color: var(--beige) !important;
+}
+
+/* Homepage hero */
+
+.academic-hero {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: center;
+  gap: 65px;
+  max-width: 1180px;
+  margin: 65px auto 85px;
+}
+
+.academic-photo img {
+  width: 100%;
+  max-width: 390px;
+  height: 460px;
   object-fit: cover;
   object-position: center;
-  border-radius: 18px;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  box-shadow: 16px 16px 0 var(--cream);
 }
 
-.home-intro {
-  flex: 1;
+.academic-content {
+  padding: 15px 0;
 }
 
-.home-eyebrow {
-  color: #9a7545;
-  font-size: 12px;
+.academic-label {
+  color: var(--forest-light);
+  font-family: Arial, sans-serif;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
 }
 
-.home-intro h1 {
-  font-size: 42px;
-  margin-bottom: 5px;
-  color: #172b4d;
+.academic-content h1 {
+  color: var(--forest);
+  font-size: clamp(36px, 4vw, 54px);
+  line-height: 1.15;
+  margin: 20px 0 8px;
 }
 
-.home-intro h2 {
-  font-size: 23px;
+.academic-content h2 {
+  color: #9B8968;
+  font-size: 25px;
   font-weight: 400;
-  color: #9a7545;
   margin-top: 0;
 }
 
-.home-description {
+.academic-line {
+  width: 65px;
+  height: 3px;
+  background: var(--beige);
+  margin: 27px 0;
+}
+
+.academic-description {
+  color: var(--muted);
   font-size: 16px;
   line-height: 1.9;
-  color: #4b5563;
-  margin-top: 22px;
+  margin-bottom: 18px;
 }
 
-.home-buttons {
+.academic-actions {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 28px;
+  gap: 28px;
+  margin-top: 32px;
 }
 
-.home-button {
-  display: inline-block;
-  padding: 12px 22px;
-  border-radius: 6px;
-  text-decoration: none !important;
+.academic-button {
+  background: var(--forest);
+  color: var(--white) !important;
+  padding: 14px 25px;
+  border-radius: 3px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
   font-weight: 600;
-  font-size: 14px;
+  text-decoration: none !important;
+  transition: background 0.2s ease;
 }
 
-.home-button.primary {
-  background: #172b4d;
-  color: white !important;
+.academic-button:hover {
+  background: var(--forest-light);
 }
 
-.home-button.secondary {
-  border: 1px solid #172b4d;
-  color: #172b4d !important;
+.academic-link {
+  color: var(--forest) !important;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none !important;
 }
 
-.home-button:hover {
-  opacity: 0.82;
+/* Research interests */
+
+.academic-interests {
+  background: var(--cream);
+  padding: 45px 50px;
+  margin: 0 auto 65px;
+  max-width: 1180px;
 }
 
-@media (max-width: 700px) {
-  .home-hero {
-    flex-direction: column;
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.interest-item {
+  border-left: 2px solid var(--beige);
+  padding-left: 16px;
+}
+
+.interest-item h3 {
+  color: var(--forest);
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.interest-item p {
+  color: var(--muted);
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* Other pages */
+
+.page__title {
+  color: var(--forest);
+}
+
+.page__content h2,
+.page__content h3 {
+  color: var(--forest);
+}
+
+.page__content a {
+  color: var(--forest-light);
+}
+
+/* Footer */
+
+.page__footer {
+  border-top: 1px solid #E8E5DC;
+}
+
+/* Responsive design */
+
+@media (max-width: 800px) {
+  #main {
+    width: 94%;
+  }
+
+  .academic-hero {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    margin: 35px auto 55px;
+  }
+
+  .academic-photo {
     text-align: center;
-    gap: 25px;
-    margin-top: 20px;
   }
 
-  .home-photo img {
-    width: 220px;
-    height: 250px;
+  .academic-photo img {
+    max-width: 280px;
+    height: 330px;
   }
 
-  .home-intro h1 {
-    font-size: 32px;
+  .academic-content {
+    text-align: center;
   }
 
-  .home-buttons {
+  .academic-line {
+    margin: 25px auto;
+  }
+
+  .academic-actions {
     justify-content: center;
   }
-}
-/* Wider and more elegant website layout */
 
-#main {
-  max-width: 1500px;
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .academic-interests {
+    padding: 30px 22px;
+  }
 
-.initial-content .page {
-  max-width: 1400px;
-  width: 100%;
+  .interest-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-.initial-content .page__inner-wrap {
-  width: 100%;
-}
+@media (max-width: 480px) {
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
 
-.home-hero {
-  max-width: 1250px;
-  width: 100%;
-  margin: 50px auto;
-  gap: 75px;
-}
-
-.home-photo {
-  flex: 0 0 350px;
-}
-
-.home-photo img {
-  width: 330px;
-  height: 390px;
-  border-radius: 16px;
-}
-
-.home-intro h1 {
-  font-size: 48px;
-}
-
-.home-description {
-  font-size: 17px;
-  line-height: 2;
+  .academic-content h1 {
+    font-size: 34px;
+  }
 }
