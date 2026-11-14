@@ -1,35 +1,47 @@
 ---
 layout: single
-title: "Welcome"
+title: "Home"
 permalink: /
-author_profile: true
+author_profile: false
 ---
 
-# Hello, I'm Gwarissath!
+<div class="home-hero">
+  <div class="home-photo">
+    <img src="/assets/images/profile.jpg" alt="Portrait of Warissath GERALDO">
+  </div>
 
-Welcome to my personal website.
+  <div class="home-intro">
+    <p class="home-eyebrow">ECONOMIST | DEVELOPMENT & PUBLIC POLICY</p>
 
-I am interested in economics, applied econometrics,
-economic development, and public policy.
+    <h1>Warissath GERALDO</h1>
 
-This website presents my academic background,
-research interests, publications, ongoing projects,
-and professional experience.
+    <h2>Economist</h2>
+
+    <p class="home-description">
+      I am an economist interested in development economics,
+      applied econometrics, public policy and project management.
+      My work focuses on using economic analysis and data-driven
+      approaches to understand development challenges and inform
+      effective public policies.
+    </p>
+
+    <div class="home-buttons">
+      <a href="/assets/files/cv.pdf" class="home-button primary">
+        View my CV
+      </a>
+      <a href="/projects/" class="home-button secondary">
+        Explore my projects
+      </a>
+    </div>
+  </div>
+</div>
+
+---
 
 ## Research Interests
 
 - Development Economics
 - Applied Econometrics
-- Household Economics
 - Public Policy
-- Economic Development in Africa
-
-## Latest Research
-
-Explore my research projects, academic papers,
-and publications.
-
-## Contact
-
-Feel free to contact me for research collaborations
-and professional opportunities.
+- Household Economics
+- Project Management
