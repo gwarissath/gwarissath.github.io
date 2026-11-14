@@ -1,0 +1,24 @@
+# Informations générales du site
+title: "Gwarissath | Personal Portfolio"
+name: "Gwarissath"
+description: "Personal website and academic portfolio"
+url: "https://gwarissath.github.io"
+baseurl: ""
+
+# Thème du site
+remote_theme: mmistakes/minimal-mistakes
+
+# Configuration du thème
+minimal_mistakes_skin: "default"
+
+# Plugins GitHub Pages
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Navigation
+include:
+  - _pages
+
+# Paramètres Markdown
+markdown: kramdown
