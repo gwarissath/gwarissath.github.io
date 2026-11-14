@@ -108,3 +108,46 @@
     justify-content: center;
   }
 }
+/* Wider and more elegant website layout */
+
+#main {
+  max-width: 1500px;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.initial-content .page {
+  max-width: 1400px;
+  width: 100%;
+}
+
+.initial-content .page__inner-wrap {
+  width: 100%;
+}
+
+.home-hero {
+  max-width: 1250px;
+  width: 100%;
+  margin: 50px auto;
+  gap: 75px;
+}
+
+.home-photo {
+  flex: 0 0 350px;
+}
+
+.home-photo img {
+  width: 330px;
+  height: 390px;
+  border-radius: 16px;
+}
+
+.home-intro h1 {
+  font-size: 48px;
+}
+
+.home-description {
+  font-size: 17px;
+  line-height: 2;
+}
