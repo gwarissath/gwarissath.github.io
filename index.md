@@ -1,44 +1,50 @@
+
 ---
 layout: single
 title: ""
 permalink: /
 author_profile: false
+classes: wide
 ---
 
-<div class="home-hero">
+<div class="academic-hero">
 
-  <div class="home-photo">
-    <img src="/assets/images/profile.jpg"
-         alt="Portrait of Warissath GERALDO">
+  <div class="academic-photo">
+    <img src="/assets/images/profile.jpg" alt="Warissath GERALDO">
   </div>
 
-  <div class="home-intro">
+  <div class="academic-content">
 
-    <p class="home-eyebrow">
-      ECONOMIST | DEVELOPMENT & PUBLIC POLICY
-    </p>
+    <p class="academic-label">ECONOMIST | RESEARCHER</p>
 
     <h1>Warissath GERALDO</h1>
 
     <h2>Economist</h2>
 
-    <p class="home-description">
-      I am an economist interested in development economics,
+    <div class="academic-line"></div>
+
+    <p class="academic-description">
+      Welcome to my professional website.
+
+      I am an economist with interests in development economics,
       applied econometrics, public policy and project management.
-      My work focuses on using economic analysis and data-driven
-      approaches to understand development challenges and inform
-      effective public policies.
+      I am particularly interested in using economic research
+      and quantitative methods to understand development challenges
+      and support evidence-based policymaking.
     </p>
 
-    <div class="home-buttons">
-      <a href="/assets/files/cv.pdf"
-         class="home-button primary">
-         View my CV
+    <p class="academic-description">
+      This website presents my academic background,
+      professional experience, research interests and projects.
+    </p>
+
+    <div class="academic-actions">
+      <a href="/assets/files/cv.pdf" class="academic-button">
+        View my CV
       </a>
 
-      <a href="/projects/"
-         class="home-button secondary">
-         Explore my projects
+      <a href="/projects/" class="academic-link">
+        Explore my projects →
       </a>
     </div>
 
@@ -46,10 +52,30 @@ author_profile: false
 
 </div>
 
-## Interests
+<div class="academic-interests">
 
-- Development Economics
-- Applied Econometrics
-- Public Policy
-- Household Economics
-- Project Management
+  <p class="academic-label">AREAS OF INTEREST</p>
+
+  <div class="interest-grid">
+    <div class="interest-item">
+      <h3>Development Economics</h3>
+      <p>Economic development and household welfare.</p>
+    </div>
+
+    <div class="interest-item">
+      <h3>Applied Econometrics</h3>
+      <p>Quantitative methods and empirical research.</p>
+    </div>
+
+    <div class="interest-item">
+      <h3>Public Policy</h3>
+      <p>Evidence-based policy analysis and evaluation.</p>
+    </div>
+
+    <div class="interest-item">
+      <h3>Project Management</h3>
+      <p>Project design, implementation and monitoring.</p>
+    </div>
+  </div>
+
+</div>
