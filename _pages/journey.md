@@ -31,7 +31,7 @@ classes: wide
       <h3>Field Enumerator and supervisor</h3>
 
       <p>
-        Conducted field surveys and household interviews,
+        Conducted field surveys in Senegal and Togo,
         ensuring high-quality data collection for research projects.
       </p>
 
