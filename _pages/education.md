@@ -12,9 +12,9 @@ This page presents my academic background and qualifications.
 
 <!-- Replace the examples below with your actual qualifications. -->
 
-### [Master Degree in Development Economist ]
-**[Clermont Auvergne University (UCA)- CERDI]** · [Clermont Ferrand, France]  
-*[2021 – 2023]*
+### Master Degree in Development Economist 
+**Clermont Auvergne University (UCA)- CERDI** · Clermont Ferrand, France 
+*2021 – 2023*
 
 - Field of study: [Your field]
 - Relevant coursework or thesis: [Optional]
