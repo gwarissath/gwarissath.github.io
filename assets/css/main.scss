@@ -4,9 +4,9 @@
 
 @import "minimal-mistakes";
 
-/* ==================================
-   ACADEMIC PORTFOLIO - COLOR SYSTEM
-================================== */
+/* =========================================
+   ACADEMIC PORTFOLIO - WIDE BALANCED DESIGN
+========================================= */
 
 :root {
   --forest: #173F35;
@@ -18,25 +18,33 @@
   --white: #FFFFFF;
 }
 
-/* General layout */
+/* GENERAL WEBSITE */
 
 body {
   background: var(--white);
   color: var(--ink);
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", serif;
 }
+
+/* WIDER MAIN CONTAINER */
 
 #main {
-  max-width: 1320px;
-  width: 92%;
-  margin: 0 auto;
+  max-width: 1500px;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.page {
+.initial-content .page {
+  max-width: 1400px;
   width: 100%;
 }
 
-/* Navigation */
+.initial-content .page__inner-wrap {
+  width: 100%;
+}
+
+/* NAVIGATION */
 
 .masthead {
   background: var(--white);
@@ -44,8 +52,8 @@ body {
 }
 
 .masthead__inner-wrap {
-  max-width: 1320px;
-  width: 92%;
+  max-width: 1400px;
+  width: 94%;
 }
 
 .greedy-nav a {
@@ -60,23 +68,29 @@ body {
   color: var(--beige) !important;
 }
 
-/* Homepage hero */
+/* HOMEPAGE HERO */
 
 .academic-hero {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
   align-items: center;
-  gap: 65px;
-  max-width: 1180px;
-  margin: 65px auto 85px;
+  gap: 75px;
+
+  max-width: 1320px;
+  width: 100%;
+
+  margin: 55px auto 85px;
+  padding: 20px 15px;
 }
 
 .academic-photo img {
   width: 100%;
-  max-width: 390px;
-  height: 460px;
+  max-width: 430px;
+  height: 490px;
+
   object-fit: cover;
   object-position: center;
+
   border-radius: 5px;
   box-shadow: 16px 16px 0 var(--cream);
 }
@@ -96,14 +110,14 @@ body {
 
 .academic-content h1 {
   color: var(--forest);
-  font-size: clamp(36px, 4vw, 54px);
+  font-size: clamp(38px, 4vw, 58px);
   line-height: 1.15;
   margin: 20px 0 8px;
 }
 
 .academic-content h2 {
   color: #9B8968;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 400;
   margin-top: 0;
 }
@@ -122,6 +136,8 @@ body {
   margin-bottom: 18px;
 }
 
+/* BUTTONS */
+
 .academic-actions {
   display: flex;
   align-items: center;
@@ -131,13 +147,17 @@ body {
 }
 
 .academic-button {
+  display: inline-block;
   background: var(--forest);
   color: var(--white) !important;
+
   padding: 14px 25px;
   border-radius: 3px;
+
   font-family: Arial, sans-serif;
   font-size: 13px;
   font-weight: 600;
+
   text-decoration: none !important;
   transition: background 0.2s ease;
 }
@@ -154,25 +174,28 @@ body {
   text-decoration: none !important;
 }
 
-/* Research interests */
+/* RESEARCH INTERESTS */
 
 .academic-interests {
   background: var(--cream);
-  padding: 45px 50px;
-  margin: 0 auto 65px;
-  max-width: 1180px;
+
+  max-width: 1320px;
+  width: 100%;
+
+  padding: 50px 55px;
+  margin: 0 auto 70px;
 }
 
 .interest-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+  gap: 28px;
   margin-top: 30px;
 }
 
 .interest-item {
   border-left: 2px solid var(--beige);
-  padding-left: 16px;
+  padding-left: 18px;
 }
 
 .interest-item h3 {
@@ -188,7 +211,7 @@ body {
   line-height: 1.7;
 }
 
-/* Other pages */
+/* OTHER PAGES */
 
 .page__title {
   color: var(--forest);
@@ -203,15 +226,33 @@ body {
   color: var(--forest-light);
 }
 
-/* Footer */
+/* FOOTER */
 
 .page__footer {
   border-top: 1px solid #E8E5DC;
 }
 
-/* Responsive design */
+/* TABLETS */
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+
+  .academic-hero {
+    gap: 40px;
+  }
+
+  .academic-photo img {
+    height: 400px;
+  }
+
+  .interest-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
   #main {
     width: 94%;
   }
@@ -235,6 +276,10 @@ body {
     text-align: center;
   }
 
+  .academic-content h1 {
+    font-size: 34px;
+  }
+
   .academic-line {
     margin: 25px auto;
   }
@@ -248,16 +293,6 @@ body {
   }
 
   .interest-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 480px) {
-  .interest-grid {
     grid-template-columns: 1fr;
-  }
-
-  .academic-content h1 {
-    font-size: 34px;
   }
 }
