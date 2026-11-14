@@ -12,16 +12,16 @@ This page presents my academic background and qualifications.
 
 <!-- Replace the examples below with your actual qualifications. -->
 
-### [Degree / Qualification]
-**[University or Institution]** · [City, Country]  
-*[Start year – End year]*
+### [Master Degree in Development Economist ]
+**[Clermont Auvergne University (UCA)- CERDI]** · [Clermont Ferrand, France]  
+*[2021 – 2023]*
 
 - Field of study: [Your field]
 - Relevant coursework or thesis: [Optional]
 
-### [Previous Degree / Qualification]
-**[University or Institution]** · [City, Country]  
-*[Start year – End year]*
+### [Bachelor degree in Statistics]
+**[ENSAE]** · [Dakar, Senegal]  
+*[2016 – 2020]*
 
 - Field of study: [Your field]
 - Relevant coursework or thesis: [Optional]
