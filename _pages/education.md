@@ -10,23 +10,39 @@ This page presents my academic background and qualifications.
 
 ## Academic Background
 
-<!-- Replace the examples below with your actual qualifications. -->
-### Master Degree in Public Policy and project 
-**IEDES** · Paris, France   
-*202-202*
+### Master Degree in Public Policy and Project Management
 
+**IEDES** · Paris, France  
+*2024 – Present*
 
-### Master Degree in Development Economist 
-**Clermont Auvergne University (UCA)- CERDI** · Clermont Ferrand, France   
+---
+
+### Master Degree in Development Economics
+
+**Clermont Auvergne University (UCA) – CERDI** · Clermont-Ferrand, France  
 *2021 – 2023*
 
-- Field of specialication: Public Finance
-- What was the degree about : Microeconomics, Macroeconomics, Finance for development
+**Field of Specialization**
+- Public Finance
 
-### Bachelor degree in Statistics
-**ENSAE(Ecole nationale de la statistique et de l'Analyse Economique)** · Dakar, Senegal    
+**Key Areas of Study**
+- Microeconomics
+- Macroeconomics
+- Development Finance
+
+---
+
+### Bachelor Degree in Statistics
+
+**ENSAE (École Nationale de la Statistique et de l'Analyse Économique)** · Dakar, Senegal  
 *2016 – 2020*
-- What was the Degree About: Data collection designe (sampling, questionaire design, survey supervision) , Data analysis
+
+**Key Areas of Training**
+- Sampling Methods
+- Questionnaire Design
+- Survey Supervision
+- Data Collection
+- Statistical Analysis
 
 <div class="skills-grid">
 
@@ -51,9 +67,3 @@ This page presents my academic background and qualifications.
   </div>
 
 </div>
-
-
-
----
-
-You can add further degrees, certifications, scholarships, or academic training here.
