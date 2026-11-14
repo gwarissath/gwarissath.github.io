@@ -1,24 +1,109 @@
 ---
 ---
 
-@charset "utf-8";
 @import "minimal-mistakes";
 
-/* Small customizations for a clean, modern professional portfolio. */
-.page__title {
-  letter-spacing: -0.02em;
+.home-hero {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  max-width: 1050px;
+  margin: 55px auto;
+  padding: 25px 10px;
 }
 
-.author__avatar img {
-  border-radius: 50%;
+.home-photo {
+  flex: 0 0 290px;
 }
 
-.masthead__inner-wrap {
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
+.home-photo img {
+  width: 270px;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.13);
 }
 
-.page__content a {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.18em;
+.home-intro {
+  flex: 1;
+}
+
+.home-eyebrow {
+  color: #9a7545;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.home-intro h1 {
+  font-size: 42px;
+  margin-bottom: 5px;
+  color: #172b4d;
+}
+
+.home-intro h2 {
+  font-size: 23px;
+  font-weight: 400;
+  color: #9a7545;
+  margin-top: 0;
+}
+
+.home-description {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #4b5563;
+  margin-top: 22px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.home-button.primary {
+  background: #172b4d;
+  color: white !important;
+}
+
+.home-button.secondary {
+  border: 1px solid #172b4d;
+  color: #172b4d !important;
+}
+
+.home-button:hover {
+  opacity: 0.82;
+}
+
+@media (max-width: 700px) {
+  .home-hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    margin-top: 20px;
+  }
+
+  .home-photo img {
+    width: 220px;
+    height: 250px;
+  }
+
+  .home-intro h1 {
+    font-size: 32px;
+  }
+
+  .home-buttons {
+    justify-content: center;
+  }
 }
