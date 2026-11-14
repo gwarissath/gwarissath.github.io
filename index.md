@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: ""
@@ -15,7 +14,9 @@ classes: wide
 
   <div class="academic-content">
 
-    <p class="academic-label">ECONOMIST | RESEARCHER</p>
+    <p class="academic-label">
+      ECONOMIST | RESEARCHER
+    </p>
 
     <h1>Warissath GERALDO</h1>
 
@@ -28,26 +29,26 @@ classes: wide
     </p>
 
     <p class="academic-description">
-      I am an economist with interests in development economics,
+      I am an economist interested in development economics,
       applied econometrics, public policy and project management.
-      I am particularly interested in using economic research
-      and quantitative methods to understand development challenges
-      and support evidence-based policymaking.
+      My work focuses on applying economic research and quantitative
+      methods to address development challenges and support
+      evidence-based policymaking.
     </p>
 
     <p class="academic-description">
-      This website presents my academic background,
-      professional experience, research interests and projects.
+      This website presents my academic background, professional
+      experience, research interests and selected projects.
     </p>
 
     <div class="academic-actions">
 
       <a href="/assets/files/cv.pdf" class="academic-button">
-        View my CV
+        Download CV
       </a>
 
       <a href="/projects/" class="academic-link">
-        Explore my projects →
+        Explore Projects →
       </a>
 
     </div>
@@ -56,44 +57,12 @@ classes: wide
 
 </div>
 
-<div class="academic-interests">
+<section class="academic-interests">
 
-  <p class="academic-label">AREAS OF INTEREST</p>
+  <p class="academic-label">
+    RESEARCH INTERESTS
+  </p>
 
   <div class="interest-grid">
 
     <div class="interest-item">
-      <h3>Development Economics</h3>
-      <p>
-        Economic development, poverty, inequality
-        and household welfare.
-      </p>
-    </div>
-
-    <div class="interest-item">
-      <h3>Applied Econometrics</h3>
-      <p>
-        Quantitative methods, statistical analysis
-        and empirical research.
-      </p>
-    </div>
-
-    <div class="interest-item">
-      <h3>Public Policy</h3>
-      <p>
-        Policy analysis, impact evaluation
-        and evidence-based policymaking.
-      </p>
-    </div>
-
-    <div class="interest-item">
-      <h3>Project Management</h3>
-      <p>
-        Project design, implementation,
-        monitoring and evaluation.
-      </p>
-    </div>
-
-  </div>
-
-</div>
