@@ -92,7 +92,7 @@ classes: wide
 
       <span class="journey-year">2025</span>
 
-      <h3>Catering Attendant</h3>
+      <h3>Catering Attendant - Team RA Morgan Stanley</h3>
 
       <h4>New York City</h4>
 
