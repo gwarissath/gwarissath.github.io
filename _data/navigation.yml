@@ -1,13 +1,19 @@
 main:
   - title: "Home"
     url: /
+
   - title: "Education"
     url: /education/
+
   - title: "Professional Experience"
     url: /experience/
+
   - title: "Projects"
     url: /projects/
+
   - title: "CV"
     url: /cv/
+
   - title: "Contact"
     url: /contact/
+
