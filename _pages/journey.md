@@ -7,9 +7,7 @@ classes: wide
 
 <div class="journey-header">
 
-  <p class="journey-label">PROFESSIONAL JOURNEY</p>
-
-  <h1>I Was Once...</h1>
+  <p class="journey-label">PROFESSIONAL JOURNEY IN PICTURE</p>
 
   <p class="journey-intro">
     Every experience, from field data collection to international
@@ -24,7 +22,7 @@ classes: wide
   <div class="journey-card">
 
     <img src="/assets/images/journey/enumerator.jpg"
-         alt="Field Enumerator">
+         alt="Field work in Senegal and Togo">
 
     <div class="journey-content">
 
