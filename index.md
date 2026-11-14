@@ -63,6 +63,17 @@ classes: wide
     RESEARCH INTERESTS
   </p>
 
-  <div class="interest-grid">
+  <div class="research-tags">
 
-    <div class="interest-item">
+    <span>Development Economics</span>
+    <span>Applied Econometrics</span>
+    <span>Public Policy</span>
+    <span>Project Management</span>
+    <span>Household Welfare</span>
+    <span>Poverty & Inequality</span>
+    <span>Impact Evaluation</span>
+    <span>Survey Methodology</span>
+
+  </div>
+
+</section>
