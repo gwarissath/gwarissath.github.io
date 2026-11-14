@@ -28,7 +28,7 @@ classes: wide
 
       <span class="journey-year">2020</span>
 
-      <h3>Field Enumerator</h3>
+      <h3>Field Enumerator and supervisor</h3>
 
       <p>
         Conducted field surveys and household interviews,
