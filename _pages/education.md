@@ -2,7 +2,8 @@
 title: "Education"
 permalink: /education/
 layout: single
-author_profile: true
+author_profile: false
+classes: wide
 ---
 
 This page presents my academic background and qualifications.
