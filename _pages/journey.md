@@ -21,7 +21,7 @@ classes: wide
 
   <div class="journey-card">
 
-    <img src="/assets/images/journey/enumerator.jpg"
+    <img src="/assets/images/enumerator.jpg"
          alt="Field work in Senegal and Togo">
 
     <div class="journey-content">
@@ -41,7 +41,7 @@ classes: wide
 
   <div class="journey-card">
 
-    <img src="/assets/images/journey/guyane.jpg"
+    <img src="/assets/images/guyane.jpg"
          alt="French Guiana">
 
     <div class="journey-content">
@@ -63,7 +63,7 @@ classes: wide
 
   <div class="journey-card">
 
-    <img src="/assets/images/journey/upec.jpg"
+    <img src="/assets/images/upec.jpg"
          alt="UPEC">
 
     <div class="journey-content">
@@ -85,7 +85,7 @@ classes: wide
 
   <div class="journey-card">
 
-    <img src="/assets/images/journey/nyc.jpg"
+    <img src="/assets/images/nyc.jpg"
          alt="New York">
 
     <div class="journey-content">
