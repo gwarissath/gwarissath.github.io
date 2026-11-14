@@ -26,15 +26,31 @@ This page presents my academic background and qualifications.
 ### Bachelor degree in Statistics
 **ENSAE(Ecole nationale de la statistique et de l'Analyse Economique)** · Dakar, Senegal    
 *2016 – 2020*
-
 - What was the Degree About: Data collection designe (sampling, questionaire design, survey supervision) , Data analysis
 
-### What technical tools I can use
-**Data collection** · Sphinx, KoboCollect, 
-**Data analysis & visualisation** · Excel, R, Stata, PowerBI, Business Object
-**Mapping** · Qgis
-**Produce documents** · Word, Latex
+<div class="skills-grid">
 
+  <div class="skill-card">
+    <h3>📋 Data Collection</h3>
+    <p>Sphinx, KoboCollect</p>
+  </div>
+
+  <div class="skill-card">
+    <h3>📊 Data Analysis & Visualization</h3>
+    <p>Excel, R, Stata, Power BI, Business Objects</p>
+  </div>
+
+  <div class="skill-card">
+    <h3>🗺️ Mapping</h3>
+    <p>QGIS</p>
+  </div>
+
+  <div class="skill-card">
+    <h3>📄 Document Production</h3>
+    <p>Word, LaTeX</p>
+  </div>
+
+</div>
 
 
 
