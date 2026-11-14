@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "My Journey"
+title: "I was once"
 permalink: /journey/
 classes: wide
 ---
